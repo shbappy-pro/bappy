@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-<<<<<<< HEAD
   reactStrictMode: true,
   allowedDevOrigins: [
     "preview-61b72735-b446-4147-ad5c-73986fb605a0.space.chatglm.site",
@@ -16,13 +15,6 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   compress: true,
-=======
-  reactStrictMode: false,
-  allowedDevOrigins: [
-    "preview-chat-8af87903-ca35-4caf-be7a-1243d2976246.space-z.ai",
-    "space-z.ai",
-  ],
->>>>>>> 95f98db57aa414e98c816897dd6ca21ff810a83b
 };
 
 export default nextConfig;
